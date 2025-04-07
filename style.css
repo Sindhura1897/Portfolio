@@ -1,0 +1,578 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+    background: #edeef0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.nav-link {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #F05136;
+}
+
+#home {
+    background: black;
+    color: white;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    font-size: 15px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#main article {
+    margin: 20px;
+}
+
+#main img {
+    border-radius: 50%;
+}
+
+.text-container p {
+    font-size: 1em;
+    font-weight: 150;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.text-container strong {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.text-container {
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+
+/* General styles for aligning text */
+.text-container p, .text-container strong {
+    text-align: justify;
+}
+
+#bio {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Work Experience Section */
+#work-experience h2, #volunteer h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bio-container h3{
+    margin-top:10px;
+}
+
+#bio-sub{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: justify; /* Vertically center the icon and text */
+    justify-content: justify;
+    text-align: justify;
+}
+
+
+.bio-role {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    font-size:0.8em;
+    flex: 1;          
+    margin: 0 5px;     
+    text-align: justify;
+}
+
+.bio-role-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: justify;
+    flex-wrap: nowrap;  /* Ensures title and date stay on the same line */
+}
+
+.bio-role, .bio-role-1 {
+    display: flex;
+    align-items: justify; /* Vertically center the icon and text */
+    justify-content: justify;
+    padding: 10px;
+    border: 0.7px solid #ccc;
+    border-radius: 6px;
+    transition: transform 0.2s;
+    text-align: justify;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.bio-role-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.bio-role-header h4 {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+
+.bio-date {
+    clear:both;
+    font-style: italic;
+    color: #555;
+}
+
+.bio-role-description {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Subsections for IU-related roles */
+.bio-subsection {
+    border-left: 4px;
+    font-size: 0.9em;
+}
+
+
+#bio-sub-1{
+    padding-left:5px;
+    margin-bottom:10px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+}
+
+#bio-sub-sec{
+    padding-left:25px;
+    font-size: 0.9em;
+    margin-bottom:7px;
+    
+}
+
+#vol-col{
+    display: flex;
+    flex-direction: column;
+    border: 0.7px solid #ccc;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+#volunteer{
+    padding-bottom: 40px;
+}
+
+#bio{
+    font-size: 17px;
+}
+
+/* Social Media Links Styles */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Increased gap for better spacing */
+    margin-bottom: 40px; /* Space below this section */
+}
+
+.social-links a {
+    font-size: 1.5em; /* Larger icon size */
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: justify;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+.social-links .fa-linkedin-square {
+    color: #0077b5; /* LinkedIn Blue */
+}
+
+.social-links .fa-github {
+    color: #000000; /* GitHub Black */
+}
+
+.social-links i {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Resume Section Styles */
+.view-resume-heading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#resume iframe {
+    border: none;
+    width: 700px;
+    height: 900px;
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.view-button {
+    display: inline-block;
+    font-size: 18px;
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.view-button:hover {
+    background-color: #006666;
+}
+
+
+/* Download Resume Button */
+.download-button {
+    display: inline-block;
+    font-size: 18px;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: darkcyan;
+}
+
+
+
+/* Contact Page Style */
+#contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center; /* Vertically center the icon and text */
+    justify-content: center;
+    width: 160px;
+    height: 130px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    text-align: center;
+    background-color: gainsboro;
+    margin-top: 40px;
+}
+
+.contact-box:hover {
+    transform: scale(1.1);
+}
+
+.contact-link {
+    display: flex;
+    align-items: center; /* Align icon and text in the center vertically */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the icon */
+}
+
+.contact-box i {
+    font-size: 32px; /* Size of the icons */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.contact-box span {
+    font-size: 16px;  /* Text size */
+    font-weight: bold; /* Make the text bold */
+    color: #333;  /* Text color */
+}
+
+/* Skills Section */
+#skills {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 10px 20px 10px;
+}
+
+.skills-container {
+    padding: 0px;
+}
+
+.skill-group {
+    margin:5px;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.skill-group h4 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;  /* This makes the items appear side by side (row direction) */
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.skill-list li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 3px 5px;
+    font-size: 0.95rem;
+    color: #222;
+    white-space: nowrap;
+}
+
+.skill-list, .skill-group{
+    display: flex;
+    flex-direction: row;
+    flex:2;
+}
+
+.skills-container h3{
+    margin-top:5px;
+    margin-bottom:5px;
+    text-decoration: underline;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.project-box {
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    filter: blur(0.5px); 
+
+}
+
+.project-details {
+    padding: 10px;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color:black;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-focus {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project-tech {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-summary {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+#projects h3{
+    text-decoration: underline;
+    margin: 15px 0px 15px 10px;
+}
+
+.project-focus, .project-summary, .project-tech{
+    text-decoration: none;
+    text-align: justify;
+    color:black;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a.project-box {
+    text-decoration: none; /* removes underline */
+    display: block;
+    background-color:#E8E8E8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: inherit; /* prevent blue link color */
+    
+}
+
+a.project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Certificates Section */
+#certificates {
+    padding: 50px 20px;
+
+    text-align: center;
+}
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    background-color: #F0F0F0;
+}
+
+.certificate-box {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.certificate-box:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-5px);
+}
+
+.certificate-title {
+
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.certificate-company {
+    font-size: 14px;
+    color: #777;
+}
+
+#certificates h3{
+    margin: 5px 0px 15px -10px;
+    text-decoration: underline;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
