@@ -62,6 +62,7 @@ nav ul li {
         display: block; /* Display each link on a new line */
         text-align: center;
         margin-bottom: 10px;
+        font-size:0.8em;
     }
 
     .nav-link {
