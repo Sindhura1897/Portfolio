@@ -1,0 +1,112 @@
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0 20px;
+  }
+  
+  .social-links img {
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Individual sizes for profile icons */
+  .linkedin-icon {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .github-icon {
+    width: 155px;
+    height: 145px;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Resume Download Button */
+  .view-resume-heading {
+    text-align: center;
+    margin: 4px 0;
+  }
+  
+  .download-button {
+    display: inline-block;
+    font-size: 18px;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #006666;
+  }
+  
+  /* Resume Image Section */
+  .resume-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .resume-img {
+    max-width: 55%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .linkedin-icon {
+      width: 130px;
+      height: 130px;
+    }
+  
+    .github-icon {
+      width: 110px;
+      height: 115px;
+    }
+  
+    .resume-img {
+      max-width: 80%;
+    }
+  
+    .download-button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  
+    .main h1 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .linkedin-icon {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .github-icon {
+      width: 80px;
+      height: 88px;
+    }
+  
+    .resume-img {
+      max-width: 90%;
+    }
+  
+    .download-button {
+      font-size: 14px;
+      padding: 5px 9px;
+    }
+  }

@@ -1,0 +1,210 @@
+/* Skills Section */
+#skills {
+    padding: 2px 10px;
+    background-color: #fff;
+}
+
+.skills-container h3 {
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    /* font-size removed to inherit from shared h3 rule */
+}
+
+.skill-group {
+    margin-bottom: 15px;
+}
+
+.skill-group h4 {
+    font-size: 1em;
+    margin-bottom: 7px;
+    color: #333;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-list li {
+    background-color: #E4E4E4;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.skill-list li:hover {
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 480px) {
+    .skill-list li {
+        font-size: 0.85rem;
+    }
+}
+
+/* Projects Section */
+#projects {
+    padding: 15px 15px;
+    background-color: #fff;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.project-box {
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #f8f8f8;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px 0 20px 0;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-details {
+    padding: 15px;
+}
+
+.project-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.project-focus,
+.project-tech,
+.project-summary {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+
+}
+
+.project-focus {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.project-tech,
+.project-summary {
+    color: #777;
+    text-align: left;
+}
+
+.project-focus strong,
+.project-tech strong,
+.project-summary strong {
+    font-weight: bold;
+}
+
+a.project-box {
+    text-decoration: none;
+}
+
+.project-summary{
+    text-align: justify;
+}
+
+/* Media Query Adjustments for Small Screens */
+@media screen and (max-width: 768px) {
+    .project-box {
+        width: 90%; /* Two items per row for medium screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-box {
+        width: 100%; /* One project box per row on small screens */
+    }
+}
+
+
+/* Certificates Section */
+#certificates {
+    padding: 15px 15px;
+    background-color: #fff; /* Consistent with others */
+}
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.certificate-box {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.certificate-box:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-5px);
+}
+
+.certificate-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #222;
+    margin: 7px 0;
+    text-align: center;
+}
+
+.certificate-company {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .certificate-box {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .certificate-box {
+        padding: 12px;
+    }
+}
+
+/* Shared Section Headers */
+#skills h3,
+#projects h3,
+#certificates h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
