@@ -172,15 +172,19 @@ nav ul li {
 
 @media screen and (max-width: 480px) {
     .image-container img {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
 
     .nav-link {
-        font-size: 0.65em;
+        font-size: 0.55em;
     }
 
     nav ul li{
-        font-size: 0.85em;
+        font-size: 0.65em;
     }
+
+    .text-container p {
+    font-size: 0.8em;
+}
 }
