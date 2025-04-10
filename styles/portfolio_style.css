@@ -68,7 +68,7 @@
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    background-color: #f8f8f8;
+    background-color: #f2f0f0;
     text-decoration: none;
     color: inherit;
     padding: 20px 0 20px 0;
@@ -156,7 +156,7 @@ a.project-box {
 
 .certificate-box {
     padding: 10px;
-    background-color: #f8f8f8;
+    background-color: #f2f0f0;
     border-radius: 8px;
     border: 1px solid #ddd;
     text-decoration: none;
