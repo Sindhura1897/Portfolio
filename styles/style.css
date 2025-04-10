@@ -144,7 +144,11 @@ nav ul li {
     }
 
     .nav-link {
-        font-size: 0.95em;
+        font-size: 0.85em;
+    }
+
+      nav ul li{
+        font-size: 0.85em;
     }
 
     .text-container {
