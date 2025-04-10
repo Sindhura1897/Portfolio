@@ -32,8 +32,8 @@
 
 .skill-list li {
     background-color: #E4E4E4;
-    padding: 6px 10px;
-    border-radius: 20px;
+    padding: 4px 8px;
+    border-radius: 15px;
     font-size: 0.9rem;
     color: #444;
 }
