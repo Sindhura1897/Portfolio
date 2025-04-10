@@ -50,26 +50,6 @@ nav ul li {
     border-radius: 4px;
 }
 
-/* Mobile Navigation - Display links vertically */
-@media screen and (max-width: 768px) {
-    nav ul {
-        display: block; /* Stack the links vertically */
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    nav ul li {
-        display: block; /* Display each link on a new line */
-        text-align: center;
-        margin-bottom: 10px;
-        font-size:0.8em;
-    }
-
-    .nav-link {
-        font-size: 1.2em; /* Increase font size on smaller screens */
-    }
-}
-
 /* Header Section */
 #home {
     background: black;
@@ -144,11 +124,11 @@ nav ul li {
     }
 
     .nav-link {
-        font-size: 0.85em;
+        font-size: 0.75em;
     }
 
       nav ul li{
-        font-size: 0.85em;
+        font-size: 0.75em;
     }
 
     .text-container {
@@ -167,6 +147,10 @@ nav ul li {
         padding: 30px 10px;
     }
 
+    header.main h2{
+        font-size: 0.85 em;
+    }
+
     nav ul {
         flex-direction: row;
         justify-content: center;
@@ -181,11 +165,15 @@ nav ul li {
     }
 
     .nav-link {
-        font-size: 0.85em;
+        font-size: 0.75em;
     }
 
     nav ul li{
-        font-size: 0.85em;
+        font-size: 0.75em;
+    }
+
+     header.main h2{
+        font-size: 0.85 em;
     }
 
     .text-container p {
