@@ -20,7 +20,7 @@
   .contact-box {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 160px;
     height: 130px;
     padding: 20px;
